@@ -7,8 +7,9 @@ const methodOverride = require('method-override');
 const session = require('express-session');
 const flash = require('connect-flash');
 // import mongoose
+// local mongodb://127.0.0.1:27017/db_stayliday
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/db_stayliday', {
+mongoose.connect('mongodb+srv://bayudewan:bwamern@cluster0.gighn.mongodb.net/db_stayliday?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

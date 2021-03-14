@@ -2,7 +2,7 @@ var seeder = require('mongoose-seed');
 var mongoose = require('mongoose');
 
 // Connect to MongoDB via Mongoose
-seeder.connect('mongodb://localhost:27017/db_stayliday', {
+seeder.connect('mongodb+srv://bayudewan:bwamern@cluster0.gighn.mongodb.net/db_stayliday?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: true,
