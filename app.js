@@ -10,7 +10,7 @@ const cors = require('cors');
 // import mongoose
 // local mongodb://127.0.0.1:27017/db_stayliday
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://bayudewan:bwamern@cluster0.gighn.mongodb.net/db_stayliday?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://bayudewan:batman7890@cluster0.gighn.mongodb.net/db_stayliday?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
